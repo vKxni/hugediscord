@@ -1,0 +1,76 @@
+plugins {
+    id 'groovy'
+}
+
+group 'pl.smiesznadomena.chunkygroovybot'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+compileGroovy {
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+}
+
+dependencies {
+    compile 'org.codehaus.groovy:groovy-all:3.0.7'
+    compile ('net.dv8tion:JDA:4.2.0_223') {
+        exclude module: 'opus-java' // We don't need voice support in this project
+    }
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+// single jar with all deps
+task fatJar(type: Jar) {
+    manifest {
+        attributes 'Implementation-Title': 'Discord bot for chunky community',
+                'Implementation-Version': project.version,
+                'Main-Class': 'pl.smiesznadomena.chunkygroovybot.ChunkyGroovyBot'
+    }
+    @SuppressWarnings(["deprecated", "unused"])
+            baseName = project.name
+    from {
+        configurations.compile.collect {
+            if(it.isDirectory()) {
+                return it
+            } else {
+                if(it.name.endsWith('.pom')) {
+                    return null
+                }
+                zipTree(it)
+            }
+        }
+    }
+    with jar
+}
+
+task generateDockerFile {
+    final dockerFile = new File("Dockerfile")
+    if(dockerFile.exists()) {
+        dockerFile.delete()
+    }
+    dockerFile.createNewFile()
+
+    final properties = new Properties()
+    properties.load(new File("Dockerfile.properties").newReader())
+
+    final modified = []
+    new File("Dockerfile.template").eachLine {line ->
+        def modifiedLine = line
+        properties.each { key, value ->
+            modifiedLine = modifiedLine.replaceAll("$key", "$value")
+        }
+        modifiedLine = modifiedLine.replaceAll("project_version", version as String)
+        if(!properties.contains('jar_name')) {
+            modifiedLine = modifiedLine.replaceAll('jar_name', "$project.name-$project.version")
+        }
+//        println modifiedLine
+        logger.info(modifiedLine)
+        modified << modifiedLine
+    }
+    dockerFile.write(modified.join('\n'))
+}
+

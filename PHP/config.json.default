@@ -1,0 +1,18 @@
+{
+  	"email": "",
+  	"password": "",
+  	"prefix": "%",
+	"perms": {
+		"levels": [
+	  		"Banned",
+	  		"User",
+	  		"Admin"
+		],
+		"perms": {
+			
+		},
+		"default": "1"
+	},
+	"sudo_pass": "",
+	"supervisor_directory": ""
+}

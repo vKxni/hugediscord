@@ -1,0 +1,52 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    discordrb (3.4.0)
+      discordrb-webhooks (~> 3.3.0)
+      ffi (>= 1.9.24)
+      opus-ruby
+      rest-client (>= 2.0.0)
+      websocket-client-simple (>= 0.3.0)
+    discordrb-webhooks (3.3.0)
+      rest-client (>= 2.1.0.rc1)
+    domain_name (0.5.20190701)
+      unf (>= 0.0.5, < 1.0.0)
+    event_emitter (0.2.6)
+    ffi (1.15.0-x64-mingw32)
+    http-accept (1.7.0)
+    http-cookie (1.0.3)
+      domain_name (~> 0.5)
+    json (2.5.1)
+    mime-types (3.3.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2020.1104)
+    netrc (0.11.0)
+    opus-ruby (1.0.1)
+      ffi
+    rake (13.0.3)
+    rest-client (2.1.0-x64-mingw32)
+      ffi (~> 1.9)
+      http-accept (>= 1.7.0, < 2.0)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 4.0)
+      netrc (~> 0.8)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.7)
+    websocket (1.2.9)
+    websocket-client-simple (0.3.0)
+      event_emitter
+      websocket
+    yaml (0.1.1)
+
+PLATFORMS
+  x64-mingw32
+
+DEPENDENCIES
+  discordrb (~> 3.4)
+  json (~> 2.5, >= 2.5.1)
+  rake (~> 13.0, >= 13.0.3)
+  yaml (~> 0.1.1)
+
+BUNDLED WITH
+   2.2.13

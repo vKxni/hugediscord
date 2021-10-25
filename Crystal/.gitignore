@@ -1,0 +1,9 @@
+/doc/
+/libs/
+/lib/
+/bin/
+/.crystal/
+/.shards/
+
+# env for storing secrets during dev
+.env

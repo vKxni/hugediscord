@@ -1,0 +1,14 @@
+name: gembot
+version: 0.1.0
+
+authors:
+  - Erin <sylphofelectricity@gmail.com>
+
+license: MIT
+
+dependencies:
+  discordcr:
+    github: meew0/discordcr
+    branch: master
+  dotenv:
+    github: gdotdesign/cr-dotenv

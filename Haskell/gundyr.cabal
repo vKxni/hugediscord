@@ -1,0 +1,145 @@
+cabal-version: 3.0
+
+name:           gundyr
+version:        0.1.0.0
+description:    TODO
+homepage:       https://github.com/koluacik/gundyr#readme
+bug-reports:    https://github.com/koluacik/gundyr/issues
+author:         Deniz Koluaçık
+maintainer:     koluacik@disroot.org
+copyright:      2020 Deniz Koluaçık
+license:        BSD-3-Clause
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    ChangeLog.md
+
+common common
+  default-language: Haskell2010
+  ghc-options:
+    -Wall
+    -Wcompat
+    -Wincomplete-record-updates
+    -Wincomplete-uni-patterns
+    -Wredundant-constraints
+    -fplugin=Polysemy.Plugin
+  default-extensions:
+    StrictData
+    IncoherentInstances
+    TemplateHaskell
+    RecursiveDo
+    AllowAmbiguousTypes
+    BlockArguments
+    NoMonomorphismRestriction
+    BangPatterns
+    BinaryLiterals
+    UndecidableInstances
+    ConstraintKinds
+    DataKinds
+    DefaultSignatures
+    DeriveDataTypeable
+    DeriveFoldable
+    DeriveFunctor
+    DeriveGeneric
+    DeriveTraversable
+    DoAndIfThenElse
+    EmptyDataDecls
+    ExistentialQuantification
+    FlexibleContexts
+    FlexibleInstances
+    FunctionalDependencies
+    GADTs
+    DerivingVia
+    DerivingStrategies
+    GeneralizedNewtypeDeriving
+    StandaloneDeriving
+    DeriveAnyClass
+    InstanceSigs
+    KindSignatures
+    LambdaCase
+    MultiParamTypeClasses
+    MultiWayIf
+    NamedFieldPuns
+    OverloadedStrings
+    OverloadedLabels
+    PartialTypeSignatures
+    PatternGuards
+    PolyKinds
+    RankNTypes
+    RecordWildCards
+    ScopedTypeVariables
+    TupleSections
+    TypeFamilies
+    TypeSynonymInstances
+    ViewPatterns
+    DuplicateRecordFields
+    TypeOperators
+    TypeApplications
+    RoleAnnotations
+    PatternSynonyms
+  build-depends:
+      base >=4.7 && <5
+    , calamity >= 0.1.31.0 && <0.1.32.0
+    , calamity-commands
+    , containers
+    , di
+    , di-core
+    , di-polysemy
+    , lens
+    , polysemy
+    , polysemy-plugin
+    , text
+    , text-show
+    , unboxing-vector
+    , vector
+    , unordered-containers
+    , beam-core
+    , beam-sqlite
+    , beam-postgres
+    , sqlite-simple
+    , resource-pool
+    , aeson
+    , binary
+    , bytestring
+    , data-flags
+
+executable gundyr
+  import: common
+  main-is: Main.hs
+  other-modules:
+      Paths_gundyr
+  hs-source-dirs:
+      app
+  build-depends:
+      gundyr
+
+library
+  import: common
+  hs-source-dirs:
+    src
+  exposed-modules:
+    Gundyr
+
+    Gundyr.Commands
+    Gundyr.Commands.Messages
+    Gundyr.Commands.Reamojis
+    Gundyr.Commands.Roles
+    Gundyr.Commands.Permissions
+    Gundyr.Commands.Util
+
+    Gundyr.Db
+    Gundyr.Db.Eff
+    Gundyr.Db.Instances
+    Gundyr.Db.Messages
+    Gundyr.Db.Reamojis
+    Gundyr.Db.RolePairs
+    Gundyr.Db.Schema
+
+    Gundyr.React
+    Gundyr.React.CommandError
+    Gundyr.React.MemberUpdate
+    Gundyr.React.Ready
+    Gundyr.React.Reamojis
+
+    Gundyr.Util

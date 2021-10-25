@@ -1,0 +1,18 @@
+{
+    "name": "david/discord-php-bot",
+    "description": "An example bot that uses DiscordPHP",
+    "require": {
+        "team-reflex/discord-php": "dev-develop"
+    },
+    "authors": [
+        {
+            "name": "David",
+            "email": "david@team-reflex.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bot\\": "src/"
+        }
+    }
+}

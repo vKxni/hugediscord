@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'org.example'
+version '0.0.1'
+
+application {
+    mainClass.set('org.botexample.DiscordBot')
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    implementation 'net.dv8tion:JDA:4.2.0_227'
+    implementation 'org.slf4j:slf4j-log4j12:1.7.30'
+}
+
+test {
+    useJUnitPlatform()
+}

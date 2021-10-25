@@ -1,0 +1,6 @@
+[submodule "deps/libwsclient"]
+	path = deps/libwsclient
+	url = https://github.com/TrueMemer/libwsclient
+[submodule "deps/librequests"]
+	path = deps/librequests
+	url = https://github.com/mossberg/librequests.git

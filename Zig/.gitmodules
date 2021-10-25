@@ -1,0 +1,12 @@
+[submodule "lib/zCord"]
+	path = lib/zCord
+	url = https://github.com/fengb/zCord
+[submodule "lib/iguanaTLS"]
+	path = lib/iguanaTLS
+	url = https://github.com/alexnask/iguanaTLS
+[submodule "lib/hzzp"]
+	path = lib/hzzp
+	url = https://github.com/truemedian/hzzp
+[submodule "lib/wz"]
+	path = lib/wz
+	url = https://github.com/truemedian/wz

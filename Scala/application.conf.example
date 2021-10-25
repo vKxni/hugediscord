@@ -1,0 +1,13 @@
+env-example = ${Path}
+discord-bot-token = ""
+kill-secret = "secret"
+
+kafka {
+  server = "localhost"
+  port   = 9092
+  topic  = "commands"
+}
+
+bot.commands {
+  "!ping": "science.wasabi.tini.bot.BotMain$Ping"
+}

@@ -1,0 +1,5 @@
+FROM adoptopenjdk/openjdk11-openj9:x86_64-alpine-jdk-11.0.9_11_openj9-0.23.0
+MAINTAINER maintainer_name <maintainer_email>
+COPY ./build/libs/jar_name.jar /jar_name.jar
+USER nobody
+CMD ["java", "-Xmx60M", "-jar", "/jar_name.jar"]
