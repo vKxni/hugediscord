@@ -1,6 +1,7 @@
 # Hugediscord - Bots for everyone!
 - Get bots from all over the world, from nearly any language!
 - Easy to hard, from Python to Ruby/Perl Bots.
+- View all Sources / API Wrappers [here](https://discord.com/developers/docs/topics/community-resources)
 
 # Warning
 - You have to install all languages to be able to use them.
