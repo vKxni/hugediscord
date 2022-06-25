@@ -6,7 +6,6 @@ library(jsonlite)
 
 source(here::here("secrets.R")) # environment for bot token (secret)
 
-
 bot <- DiscordrBot$new(token)
 
 bot$register_event_handler("MESSAGE_CREATE", function(msg){
