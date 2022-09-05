@@ -110,6 +110,17 @@ A *huge* list of all available Discord Bot Frameworks/Libraries.
 - [haskcord](https://github.com/saevarb/haskord)
 - [discord](https://github.com/CimimUxMaio/discord)
 
+## PHP
+- [phpcord](https://github.com/Akhawais/Phpcord)
+- [discord-php](https://github.com/discord-php/DiscordPHP)
+- [discord-php 2](https://github.com/Woeler/discord-php)
+- [yasmin](https://github.com/sylae/Yasmin)
+- [libdiscord](https://github.com/VixikHD/libdiscord)
+
+## Perl
+- [p5-discord](https://github.com/bradhaywood/p5-Discord)
+- [perl-anyevent-discord-client](https://github.com/topaz/perl-AnyEvent-Discord-Client)
+
 ## Clojure
 - [discord.clj](https://github.com/gizmo385/discord.clj)
 
@@ -134,3 +145,10 @@ A *huge* list of all available Discord Bot Frameworks/Libraries.
 - [discord.jl](https://github.com/Xh4H/Discord.jl)
 - [ekztazy.jl](https://github.com/Humans-of-Julia/Ekztazy.jl)
 - [automan](https://github.com/azyklus/automan)
+
+## OCaml
+- [chaocaml](https://github.com/jerith/chaocaml)
+
+## R
+- [discordr](https://github.com/mone27/discordr)
+- [pirate](https://github.com/TheOnlyArtz/Pirate)
