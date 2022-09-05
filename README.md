@@ -35,6 +35,8 @@ This does not include:
 - [interactions-py](https://github.com/interactions-py/library)
 - [nextcord](https://github.com/nextcord/nextcord)
 - [pycord](https://github.com/Pycord-Development/pycord)
+- [discord.py-message-components)(https://github.com/mccoderpy/discord.py-message-components/tree/developer)
+- [discord.py-components](https://github.com/kiki7000/discord.py-components)
 
 ## Java
 - [Discord4J](https://github.com/Discord4J/Discord4J)
