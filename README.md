@@ -4,6 +4,12 @@ A *huge* list of all available Discord Bot Frameworks/Libraries.
 
 > ⚠️ Includes outdated, archived or unmaintained libraries.
 
+This does not include:
+- Selfbot repos
+- Webhook API's
+
+--
+
 ## JavaScript
 - [discord.js](https://github.com/discordjs/discord.js)
 - [Eris](https://github.com/abalabahaha/eris)
@@ -41,17 +47,6 @@ A *huge* list of all available Discord Bot Frameworks/Libraries.
 - [hyperdiscord](https://github.com/codedcosmos/HyperDiscord)
 - [catnip](https://github.com/mewna/catnip)
 
-## Kotlin
-- [kord](https://github.com/kordlib/kord)
-- [yugen](https://github.com/YugenKt/Yugen)
-- [discord.kt](https://github.com/Shengaero/discord.kt)
-- [discord.kt 2](https://github.com/Jofairden/Discord.Kt)
-
-## C#
-- [discord.net](https://github.com/discord-net/Discord.Net)
-- [dsharpplus](https://github.com/DSharpPlus/DSharpPlus)
-- [discordrestapilib](https://github.com/Chrissx/DiscordRestApiLib)
-
 ## Go
 - [discordgo](https://github.com/bwmarrin/discordgo)
 - [arikawa](https://github.com/diamondburned/arikawa)
@@ -63,6 +58,51 @@ A *huge* list of all available Discord Bot Frameworks/Libraries.
 - [onyxcord](https://github.com/theovidal/onyxcord)
 - [disc-go](https://github.com/maknop/disc-go)
 - [discgo](https://github.com/bearcherian/discgo)
+
+# C
+- [orca](https://github.com/cee-studio/orca)
+- [libdiscord](https://github.com/dxing97/libdiscord)
+- [concord](https://github.com/Cogmasters/concord)
+- [discord-c](https://github.com/RealAlpha/discord-c)
+- [disc](https://github.com/zeroxthreef/DISC)
+- [esp-discord](https://github.com/abobija/esp-discord)
+- [disco-c](https://github.com/markbeep/Disco-C)
+- [cord](https://github.com/oikpanagiotis/cord)
+- [babble](https://github.com/curz46/babble)
+- [dolphin](https://github.com/cee-studio/dolphin)
+- [dscrd](https://github.com/kuba160/dscrd)
+- [discord.c](https://github.com/010000010100111001010101/discord.c)
+- [c-cord](https://github.com/FourStarBasement/c-cord)
+- [libdiscord²](https://github.com/notraceofsense/libdiscord)
+
+## C++
+- [discordplus](https://github.com/DarsFabian/DiscordPlus)
+- [discpp](https://github.com/greenbagels/discpp)
+- [d-cord](https://github.com/Devincf/d-cord)
+- [sleepy-discord](https://github.com/yourWaifu/sleepy-discord)
+- [discordpp](https://github.com/DiscordPP/discordpp)
+- [aegis.cpp](https://github.com/zeroxs/aegis.cpp)
+- [discordcoreapi](https://github.com/RealTimeChris/DiscordCoreAPI)
+- [dpp](https://github.com/brainboxdotcc/DPP)
+- [libdiscord](https://github.com/Roughsketch/libdiscord)
+- [discord.cpp](https://github.com/Arkrissym/Discord.CPP)
+- [discord](https://github.com/BornTactical/Discord)
+- [disccord](https://github.com/FiniteReality/disccord)
+- [libcordabra](https://github.com/GTKcord/libcordabra)
+- [cppcord](https://github.com/GTKcord/libcordabra)
+- [kcord](https://github.com/zKevz/KCord)
+- [discord.hpp](https://github.com/Discord-hpp/Discord.hpp)
+
+## Kotlin
+- [kord](https://github.com/kordlib/kord)
+- [yugen](https://github.com/YugenKt/Yugen)
+- [discord.kt](https://github.com/Shengaero/discord.kt)
+- [discord.kt²](https://github.com/Jofairden/Discord.Kt)
+
+## C#
+- [discord.net](https://github.com/discord-net/Discord.Net)
+- [dsharpplus](https://github.com/DSharpPlus/DSharpPlus)
+- [discordrestapilib](https://github.com/Chrissx/DiscordRestApiLib)
 
 ## Rust
 - [twilight](https://github.com/twilight-rs/twilight)
@@ -104,9 +144,6 @@ A *huge* list of all available Discord Bot Frameworks/Libraries.
 - [swiftcord²](https://github.com/pg8wood/swiftcord)
 - [stardust](https://github.com/vodolazkayamv/Stardust)
  
-## Crystal
-- [discordcr](https://github.com/discordcr/discordcr)
-
 ## Scala
 - [ackcord](https://github.com/Katrix/AckCord)
 - [akord](https://github.com/ryanmiville/akkord)
@@ -118,43 +155,12 @@ A *huge* list of all available Discord Bot Frameworks/Libraries.
 - [discordphp](https://github.com/discord-php/DiscordPHP)
 - [restcord](https://github.com/restcord/restcord)
 
+## Crystal
+- [discordcr](https://github.com/discordcr/discordcr)
+
 ## Groovy
 - [ExtendedJDA](https://github.com/illuminator3/ExtendedJDA)
 
-# C
-- [orca](https://github.com/cee-studio/orca)
-- [libdiscord](https://github.com/dxing97/libdiscord)
-- [concord](https://github.com/Cogmasters/concord)
-- [discord-c](https://github.com/RealAlpha/discord-c)
-- [disc](https://github.com/zeroxthreef/DISC)
-- [esp-discord](https://github.com/abobija/esp-discord)
-- [disco-c](https://github.com/markbeep/Disco-C)
-- [cord](https://github.com/oikpanagiotis/cord)
-- [babble](https://github.com/curz46/babble)
-- [dolphin](https://github.com/cee-studio/dolphin)
-- [dscrd](https://github.com/kuba160/dscrd)
-- [discord.c](https://github.com/010000010100111001010101/discord.c)
-- [c-cord](https://github.com/FourStarBasement/c-cord)
-- [libdiscord²](https://github.com/notraceofsense/libdiscord)
-
-## C++
-- [discordplus](https://github.com/DarsFabian/DiscordPlus)
-- [discpp](https://github.com/greenbagels/discpp)
-- [d-cord](https://github.com/Devincf/d-cord)
-- [sleepy-discord](https://github.com/yourWaifu/sleepy-discord)
-- [discordpp](https://github.com/DiscordPP/discordpp)
-- [aegis.cpp](https://github.com/zeroxs/aegis.cpp)
-- [discordcoreapi](https://github.com/RealTimeChris/DiscordCoreAPI)
-- [dpp](https://github.com/brainboxdotcc/DPP)
-- [libdiscord](https://github.com/Roughsketch/libdiscord)
-- [discord.cpp](https://github.com/Arkrissym/Discord.CPP)
-- [discord](https://github.com/BornTactical/Discord)
-- [disccord](https://github.com/FiniteReality/disccord)
-- [libcordabra](https://github.com/GTKcord/libcordabra)
-- [cppcord](https://github.com/GTKcord/libcordabra)
-- [kcord](https://github.com/zKevz/KCord)
-- [discord.hpp](https://github.com/Discord-hpp/Discord.hpp)
-- 
 ## Ruby
 - [discordrb](https://github.com/meew0/discordrb)
 - [mijdiscord](https://github.com/Mijyuoon/MijDiscord)
