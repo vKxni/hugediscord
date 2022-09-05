@@ -36,12 +36,17 @@ A *huge* list of all available Discord Bot Frameworks/Libraries.
 - [frame](https://github.com/mluizaa00/discord-frame)
 - [crystalshard](https://github.com/comroid-git/CrystalShard)
 - [hyperdiscord](https://github.com/codedcosmos/HyperDiscord)
-- 
+
+## Kotlin
+- [kord](https://github.com/kordlib/kord)
+- [yugen](https://github.com/YugenKt/Yugen)
+- [discord.kt](https://github.com/Shengaero/discord.kt)
+- [discord.kt 2](https://github.com/Jofairden/Discord.Kt)
+
 ## C#
 - [discord.net](https://github.com/discord-net/Discord.Net)
 - [dsharpplus](https://github.com/DSharpPlus/DSharpPlus)
 - [discordrestapilib](https://github.com/Chrissx/DiscordRestApiLib)
-
 
 ## Go
 - [discordgo](https://github.com/bwmarrin/discordgo)
@@ -91,9 +96,12 @@ A *huge* list of all available Discord Bot Frameworks/Libraries.
 ## Ruby
 - [discordrb](https://github.com/meew0/discordrb)
 - [mijdiscord](https://github.com/Mijyuoon/MijDiscord)
-
+- 
 ## Lua
 - [discordia](https://github.com/SinisterRectus/Discordia)
+- [lacord](https://github.com/Mehgugs/lacord)
+- [luv-discord](https://github.com/sclark39/luv-discord)
+- [novus](https://github.com/Mehgugs/novus)
 
 ## Haskell
 - [discord.hs](https://github.com/TiltMeSenpai/Discord.hs)
