@@ -222,6 +222,9 @@ and also doesn't follow any special order by popularity etc.
 ## OCaml
 - [chaocaml](https://github.com/jerith/chaocaml)
 
+## Haxe
+- [haxicord](https://github.com/RaidAndFade/Haxicord)
+
 ## R
 - [discordr](https://github.com/mone27/discordr)
 - [pirate](https://github.com/TheOnlyArtz/Pirate)
