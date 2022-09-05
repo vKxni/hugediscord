@@ -8,7 +8,7 @@ This does not include:
 - Selfbot repos
 - Webhook API's
 
---
+---
 
 ## JavaScript
 - [discord.js](https://github.com/discordjs/discord.js)
