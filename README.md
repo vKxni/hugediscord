@@ -28,6 +28,7 @@ and also doesn't follow any special order by popularity etc.
 - [evolvejs](https://github.com/BlazifyOrg/evolvejs)
 - [discordx](https://github.com/discordx-ts/discordx)
 - [watson](https://github.com/M1CH3L1US/Watson)
+- [tiscord](https://github.com/tiscordlib/tiscord)
 
 ## Python 
 - [discord.py](https://github.com/Rapptz/discord.py)
@@ -106,6 +107,8 @@ and also doesn't follow any special order by popularity etc.
 - [discord.net](https://github.com/discord-net/Discord.Net)
 - [dsharpplus](https://github.com/DSharpPlus/DSharpPlus)
 - [discordrestapilib](https://github.com/Chrissx/DiscordRestApiLib)
+- [remora.discord](https://github.com/Remora/Remora.Discord)
+- [netcord](https://github.com/KubaZ2/NetCord)
 
 ## Rust
 - [twilight](https://github.com/twilight-rs/twilight)
