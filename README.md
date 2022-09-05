@@ -61,6 +61,15 @@ A *huge* list of all available Discord Bot Frameworks/Libraries.
 - [discgo](https://github.com/bearcherian/discgo)
 
 ## Rust
+- [twilight](https://github.com/twilight-rs/twilight)
+- [panda](https://github.com/xyaman/panda)
+- [strife](https://github.com/Juici/strife)
+- [discord_rs](https://github.com/loganintech/discord_rs)
+- [eriscord](https://github.com/nobbele/Eriscord)
+- [slash](https://github.com/dysnomiarpg/slash)
+- [discord-async-rs](https://github.com/kebabtent/discord-async-rs)
+- [harmony](https://github.com/lfenart/harmony)
+- [rust-cord](https://github.com/jkcoxson/rust-cord)
 - [discord-rs](https://github.com/SpaceManiac/discord-rs)
 - [serenity](https://github.com/serenity-rs/serenity)
 
@@ -96,7 +105,12 @@ A *huge* list of all available Discord Bot Frameworks/Libraries.
 ## Ruby
 - [discordrb](https://github.com/meew0/discordrb)
 - [mijdiscord](https://github.com/Mijyuoon/MijDiscord)
-- 
+- [vox](https://github.com/swarley/vox)
+- [discord.gem](https://github.com/teamaltitude/discord.gem)
+- [star](https://github.com/BlackdestinyXX/Star)
+- [listcordrb](https://github.com/Chew/ListcordRB)
+- [discoruby](https://github.com/Discoruby/Discoruby)
+
 ## Lua
 - [discordia](https://github.com/SinisterRectus/Discordia)
 - [lacord](https://github.com/Mehgugs/lacord)
