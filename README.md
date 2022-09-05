@@ -8,7 +8,7 @@ A *huge* list of all available Discord Bot Frameworks/Libraries.
 - [Eris](https://github.com/abalabahaha/eris)
 - [discordie](https://github.com/qeled/discordie)
 
-## TypeScriot
+## TypeScript
 - [discord.ts](https://github.com/owencalvin/discord.ts)
 - [oceanic](https://github.com/OceanicJS/Oceanic)
 - [discordeno](https://github.com/discordeno/discordeno)
