@@ -219,15 +219,9 @@ This does not include:
 ## OCaml
 - [chaocaml](https://github.com/jerith/chaocaml)
 
-## V
-- [vcord](https://github.com/CesiumLabs/vcord)
-
 ## R
 - [discordr](https://github.com/mone27/discordr)
 - [pirate](https://github.com/TheOnlyArtz/Pirate)
-
-## Zig
-- [zigcord](https://github.com/Sobeston/zigcord)
 
 ## CoffeeScript
 - [coffeecord](https://github.com/ItsRauf/coffeecord)
@@ -237,3 +231,9 @@ This does not include:
 
 ## F#
 - [brokendiscord](https://github.com/brokenprogrammer/BrokenDiscord)
+
+## V
+- [vcord](https://github.com/CesiumLabs/vcord)
+
+## Zig
+- [zigcord](https://github.com/Sobeston/zigcord)
