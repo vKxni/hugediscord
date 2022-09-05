@@ -226,6 +226,9 @@ and also doesn't follow any special order by popularity etc.
 - [discordr](https://github.com/mone27/discordr)
 - [pirate](https://github.com/TheOnlyArtz/Pirate)
 
+## Gleam
+- [shimmer](https://github.com/HarryET/shimmer)
+
 ## CoffeeScript
 - [coffeecord](https://github.com/ItsRauf/coffeecord)
 
