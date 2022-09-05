@@ -8,6 +8,7 @@ This does not include:
 - Selfbot repos
 - Webhook API's
 
+and also doesn't follow any special order by popularity etc.
 ---
 
 ## JavaScript
