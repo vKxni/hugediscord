@@ -39,6 +39,14 @@ A *huge* list of all available Discord Bot Frameworks/Libraries.
 ## Go
 - [discordgo](https://github.com/bwmarrin/discordgo)
 - [arikawa](https://github.com/diamondburned/arikawa)
+- [harmony](https://github.com/skwair/harmony)
+- [rest](https://github.com/Postcord/rest)
+- [gld](https://github.com/rxdn/gdl)
+- [gocord](https://github.com/gocord/gocord)
+- [sevcord](https://github.com/Nv7-GitHub/sevcord)
+- [onyxcord](https://github.com/theovidal/onyxcord)
+- [disc-go](https://github.com/maknop/disc-go)
+- [discgo](https://github.com/bearcherian/discgo)
 
 ## Rust
 - [discord-rs](https://github.com/SpaceManiac/discord-rs)
@@ -87,3 +95,9 @@ A *huge* list of all available Discord Bot Frameworks/Libraries.
 
 ## F#
 - [brokendiscord](https://github.com/brokenprogrammer/BrokenDiscord)
+
+## Nim
+- [discordnim](https://github.com/Krognol/discordnim)
+- [dimscord](https://github.com/krisppurg/dimscord)
+- [funnycaptalism](https://github.com/metagn/funnycapitalism)
+- 
