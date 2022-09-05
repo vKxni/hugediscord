@@ -8,7 +8,6 @@ A *huge* list of all available Discord Bot Frameworks/Libraries.
 - [Eris](https://github.com/abalabahaha/eris)
 - [discordie](https://github.com/qeled/discordie)
 - [aiojs](https://github.com/AkaruiDevelopment/aoi.js)
-- [discordhtc](https://www.npmjs.com/package/discord.htc) 
 - [akiro](https://github.com/discord-akairo/discord-akairo)
 
 ## TypeScript
@@ -45,6 +44,18 @@ A *huge* list of all available Discord Bot Frameworks/Libraries.
 - [discord-rs](https://github.com/SpaceManiac/discord-rs)
 - [serenity](https://github.com/serenity-rs/serenity)
 
+## Elixir
+- [nostrum](https://github.com/Kraigie/nostrum)
+- [alchemy](https://github.com/cronokirby/alchemy)
+- [discord_ex](https://github.com/rmcafee/discord_ex) 
+- [coxir](https://github.com/satom99/coxir) 
+- [wumpex](https://github.com/dealloc/wumpex)
+- [remedy](https://github.com/bdanklin/remedy)
+- [enmity](https://github.com/Cantido/enmity)
+- [discord_elixir](https://github.com/jasoncousins/discord_elixir)
+- [concoction](https://github.com/jb3/concoction)
+- [stargate](https://github.com/boomba-bot/stargate)
+
 ## Crystal
 - [discordcr](https://github.com/discordcr/discordcr)
 
@@ -73,3 +84,6 @@ A *huge* list of all available Discord Bot Frameworks/Libraries.
 - [dcord](https://github.com/codic12/dcord)
 - [discor.d](https://github.com/emilyploszaj/discor.d)
 - [dismal](https://github.com/megabytesofrem/dismal)
+
+## F#
+- [brokendiscord](https://github.com/brokenprogrammer/BrokenDiscord)
