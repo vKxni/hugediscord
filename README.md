@@ -31,10 +31,17 @@ A *huge* list of all available Discord Bot Frameworks/Libraries.
 - [Discord4J](https://github.com/Discord4J/Discord4J)
 - [javacord](https://github.com/Javacord/Javacord)
 - [JDA](https://github.com/DV8FromTheWorld/JDA)
-
+- [discord-bot-library](https://github.com/MichaPehlivan/Discord-Bot-Library)
+- [kassel](https://github.com/KyoriPowered/kassel)
+- [frame](https://github.com/mluizaa00/discord-frame)
+- [crystalshard](https://github.com/comroid-git/CrystalShard)
+- [hyperdiscord](https://github.com/codedcosmos/HyperDiscord)
+- 
 ## C#
 - [discord.net](https://github.com/discord-net/Discord.Net)
 - [dsharpplus](https://github.com/DSharpPlus/DSharpPlus)
+- [discordrestapilib](https://github.com/Chrissx/DiscordRestApiLib)
+
 
 ## Go
 - [discordgo](https://github.com/bwmarrin/discordgo)
@@ -64,12 +71,22 @@ A *huge* list of all available Discord Bot Frameworks/Libraries.
 - [concoction](https://github.com/jb3/concoction)
 - [stargate](https://github.com/boomba-bot/stargate)
 
+## Dart
+- [nyx](https://github.com/Hackzzila/nyx)
+- [dartsicord](https://github.com/voximity/dartsicord)
+- [dartcord](https://github.com/Enes5519/dartcord)
+- [nyxx-flutter](https://github.com/kubastick/nyxx-flutter)
+- [kite](https://github.com/HarryET/kite)
+- 
 ## Crystal
 - [discordcr](https://github.com/discordcr/discordcr)
 
 ## PHP
 - [discordphp](https://github.com/discord-php/DiscordPHP)
 - [restcord](https://github.com/restcord/restcord)
+
+## Groovy
+- [ExtendedJDA](https://github.com/illuminator3/ExtendedJDA)
 
 ## Ruby
 - [discordrb](https://github.com/meew0/discordrb)
@@ -79,7 +96,12 @@ A *huge* list of all available Discord Bot Frameworks/Libraries.
 - [discordia](https://github.com/SinisterRectus/Discordia)
 
 ## Haskell
-- [discord.js](https://github.com/TiltMeSenpai/Discord.hs)
+- [discord.hs](https://github.com/TiltMeSenpai/Discord.hs)
+- [discord-haskell](https://github.com/discord-haskell/discord-haskell)
+- [calamity](https://github.com/simmsb/calamity)
+- [haskcord](https://github.com/saevarb/haskord)
+- [discord](https://github.com/CimimUxMaio/discord)
+- [concorde](https://github.com/GiregL/Concorde)
 
 ## Clojure
 - [discord.clj](https://github.com/gizmo385/discord.clj)
