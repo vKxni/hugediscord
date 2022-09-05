@@ -101,7 +101,6 @@ A *huge* list of all available Discord Bot Frameworks/Libraries.
 - [calamity](https://github.com/simmsb/calamity)
 - [haskcord](https://github.com/saevarb/haskord)
 - [discord](https://github.com/CimimUxMaio/discord)
-- [concorde](https://github.com/GiregL/Concorde)
 
 ## Clojure
 - [discord.clj](https://github.com/gizmo385/discord.clj)
@@ -122,4 +121,8 @@ A *huge* list of all available Discord Bot Frameworks/Libraries.
 - [discordnim](https://github.com/Krognol/discordnim)
 - [dimscord](https://github.com/krisppurg/dimscord)
 - [funnycaptalism](https://github.com/metagn/funnycapitalism)
-- 
+
+## Julia
+- [discord.jl](https://github.com/Xh4H/Discord.jl)
+- [ekztazy.jl](https://github.com/Humans-of-Julia/Ekztazy.jl)
+- [automan](https://github.com/azyklus/automan)
