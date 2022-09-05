@@ -7,12 +7,18 @@ A *huge* list of all available Discord Bot Frameworks/Libraries.
 - [discord.js](https://github.com/discordjs/discord.js)
 - [Eris](https://github.com/abalabahaha/eris)
 - [discordie](https://github.com/qeled/discordie)
+- [aiojs](https://github.com/AkaruiDevelopment/aoi.js)
+- [discordhtc](https://www.npmjs.com/package/discord.htc) 
+- [akiro](https://github.com/discord-akairo/discord-akairo)
 
 ## TypeScript
 - [discord.ts](https://github.com/owencalvin/discord.ts)
 - [oceanic](https://github.com/OceanicJS/Oceanic)
 - [discordeno](https://github.com/discordeno/discordeno)
 - [harmony](https://github.com/harmonyland/harmony])
+- [evolvejs](https://github.com/BlazifyOrg/evolvejs)
+- [discordx](https://github.com/discordx-ts/discordx)
+- [watson](https://github.com/M1CH3L1US/Watson)
 
 ## Python 
 - [discord.py](https://github.com/Rapptz/discord.py)
@@ -56,3 +62,14 @@ A *huge* list of all available Discord Bot Frameworks/Libraries.
 ## Haskell
 - [discord.js](https://github.com/TiltMeSenpai/Discord.hs)
 
+## Clojure
+- [discord.clj](https://github.com/gizmo385/discord.clj)
+
+## D
+- [droid](https://github.com/sledgang/droid) 
+- [dscord](https://github.com/b1naryth1ef/dscord)
+- [discord.d](https://github.com/SinisterRectus/discord.d)
+- [discord.d 2](https://github.com/TheDomCraft/discord.d)
+- [dcord](https://github.com/codic12/dcord)
+- [discor.d](https://github.com/emilyploszaj/discor.d)
+- [dismal](https://github.com/megabytesofrem/dismal)
