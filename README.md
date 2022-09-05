@@ -1,6 +1,6 @@
 # 🤖 Hugediscord - Discord APi Wrappers
 
-A *huge* list of all available Discord Bot Frameworks/Libraries.
+A *huge* list of all available Discord Bot Frameworks/Libraries (with examples).
 
 > ⚠️ Includes outdated, archived or unmaintained libraries.
 
